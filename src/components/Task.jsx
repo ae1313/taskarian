@@ -18,7 +18,7 @@ function Task(props) {
 
     }
     else {
-      elm.innerHTML = `<input id=${"inputtext" + props.value.i} type='text' value=${elm.innerHTML}></input>`
+      elm.innerHTML = `<input id=${"inputtext" + props.value.i} type='text' value="${elm.innerHTML}"></input>`
     }
 
 
